@@ -1118,7 +1118,7 @@ def main():
                     [
                         InlineKeyboardButton(
                             text="• ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ •",
-                            url="https://t.me/StrangerSuperbot?startgroup=true"
+                            url="https://t.me/BrokenRobot_Bot?startgroup=true"
                             )
                        ]
                 ]
