@@ -1,7 +1,5 @@
-class Config(object):
-    LOGGER = True
 API_ID=29308061
-API_HASH=4c246fb0c649477cc2e79b6a178ddfaa
+API_HASH=834fd6015b50b781e0f8a41876ca95c8
 ALLOW_EXCL=True
 DEL_CMDS=True
 ENV=True
@@ -25,12 +23,3 @@ NO_LOAD = []
 STRICT_GBAN = True
 TEMP_DOWNLOAD_DIRECTORY = "./"
 WORKERS = 8
-    
-
-class Production(Config):
-    LOGGER = True
-
-
-class Development(Config):
-    LOGGER = True
-    
