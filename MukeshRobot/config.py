@@ -1,44 +1,30 @@
-
 class Config(object):
     LOGGER = True
-    # REQUIRED
-    # Login to https://my.telegram.org and fill in these slots with the details given by it
-
-    API_ID = "" # integer value, dont use ""
-    API_HASH = ""
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 6898413162 # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    
-    SUPPORT_CHAT = "PBX_PERMOT"  # Your own group for support, do not add the @
-    START_IMG = ""
-    EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    MONGO_DB_URI= ""
-    # RECOMMENDED
-BOT_USERNAME = getenv("BOT_USERNAME" , "BrokenRobot_Bot")
-    DATABASE_URL = getenv("DATABASE_URL", " postgres://iarfggbc:Vxzh_kG7cxa1kHR5faxcd1kuA4R-UT9E@rosie.db.elephantsql.com/iarfggbc")
-    CASH_API_KEY = (
-        ""  # Get your API key from https://www.alphavantage.co/support/#api-key
-    )
-    TIME_API_KEY = ""
-    # Get your API key from https://timezonedb.com/api
-
-    # Optional fields
-    BL_CHATS = []  # List of groups that you want blacklisted.
-    DRAGONS = []  # User id of sudo users
-    DEV_USERS = []  # User id of dev users
-    DEMONS = []  # User id of support users
-    TIGERS = []  # User id of tiger users
-    WOLVES = []  # User id of whitelist users
-
-    ALLOW_CHATS = True
-    ALLOW_EXCL = True
-    DEL_CMDS = True
-    INFOPIC = True
-    LOAD = []
-    NO_LOAD = []
-    STRICT_GBAN = True
-    TEMP_DOWNLOAD_DIRECTORY = "./"
-    WORKERS = 8
+API_ID=29308061
+API_HASH=4c246fb0c649477cc2e79b6a178ddfaa
+ALLOW_EXCL=True
+DEL_CMDS=True
+ENV=True
+EVENT_LOGS=-1002018556839
+MONGO_DB_URI=mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/
+CASH_API_KEY=jj
+TIME_API_KEY=jj
+OWNER_ID=6898413162
+START_IMG=https://telegra.ph/file/d24262661dda3f1832290.jpg
+SUPPORT_CHAT=PBX_PERMOT
+TOKEN=7436017266:AAEDHTYLMCd5EismewzemzKr-PJg5lr42Ks
+BOT_USERNAME=BrokenRobot_Bot
+BL_CHATS=-1002093247039
+DRAGONS=6352107773
+DEV_USERS=6352107773
+DEMONS=6352107773
+TIGERS=6352107773
+WOLVES=6352107773
+LOAD = []
+NO_LOAD = []
+STRICT_GBAN = True
+TEMP_DOWNLOAD_DIRECTORY = "./"
+WORKERS = 8
     
 
 class Production(Config):
@@ -47,3 +33,4 @@ class Production(Config):
 
 class Development(Config):
     LOGGER = True
+    
