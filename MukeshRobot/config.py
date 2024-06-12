@@ -15,7 +15,7 @@ class Config(object):
     MONGO_DB_URI= ""
     # RECOMMENDED
 BOT_USERNAME = getenv("BOT_USERNAME" , "BrokenRobot_Bot")
-    DATABASE_URL = getenv("DATABASE_URL")
+    DATABASE_URL = getenv("mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/")
     CASH_API_KEY = (
         ""  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
