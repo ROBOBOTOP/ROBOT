@@ -4,31 +4,29 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "" # integer value, dont use ""
-    API_HASH = ""
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 6898413162 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    API_ID = "27383453"
+    API_HASH = "4c246fb0c649477cc2e79b6a178ddfaa"
+    TOKEN = "7436017266:AAEDHTYLMCd5EismewzemzKr-PJg5lr42Ks"
+    OWNER_ID = "6898413162"
     
-    SUPPORT_CHAT = "PBX_PERMOT"  # Your own group for support, do not add the @
-    START_IMG = ""
+    SUPPORT_CHAT = "PBX_PERMOT"
+    START_IMG = "https://te.legra.ph/file/9b504719e85ac6b88933e.jpg"
     EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= ""
     # RECOMMENDED
-BOT_USERNAME = getenv("BOT_USERNAME" , "BrokenRobot_Bot")
+    BOT_USERNAME = getenv("BOT_USERNAME" , "BrokenRobot_Bot")
     DATABASE_URL = getenv("mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/")
-    CASH_API_KEY = (
-        ""  # Get your API key from https://www.alphavantage.co/support/#api-key
-    )
-    TIME_API_KEY = ""
-    # Get your API key from https://timezonedb.com/api
+    CASH_API_KEY = "LO45IQSSY1TI8B1U"
+    
+    TIME_API_KEY = "3RV16TWH8JT9"
 
     # Optional fields
-    BL_CHATS = []  # List of groups that you want blacklisted.
-    DRAGONS = []  # User id of sudo users
-    DEV_USERS = []  # User id of dev users
-    DEMONS = []  # User id of support users
-    TIGERS = []  # User id of tiger users
-    WOLVES = []  # User id of whitelist users
+    BL_CHATS = [-1002093247039]  # List of groups that you want blacklisted.
+    DRAGONS = [6898413162]  # User id of sudo users
+    DEV_USERS = [6898413162]  # User id of dev users
+    DEMONS = [6898413162    ]  # User id of support users
+    TIGERS = [6898413162]  # User id of tiger users
+    WOLVES = [6898413162]  # User id of whitelist users
 
     ALLOW_CHATS = True
     ALLOW_EXCL = True
