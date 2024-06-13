@@ -14,8 +14,8 @@ class Config(object):
     EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= ""
     # RECOMMENDED
-    BOT_USERNAME = getenv("BOT_USERNAME" , "BrokenRobot_Bot")
-    DATABASE_URL = getenv("mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/")
+    BOT_USERNAME ="BrokenRobot_Bot"
+    DATABASE_URL ="mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
     CASH_API_KEY = "LO45IQSSY1TI8B1U"
     
     TIME_API_KEY = "3RV16TWH8JT9"
