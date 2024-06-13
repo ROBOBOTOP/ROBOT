@@ -12,10 +12,10 @@ class Config(object):
     SUPPORT_CHAT = "PBX_PERMOT"
     START_IMG = "https://te.legra.ph/file/9b504719e85ac6b88933e.jpg"
     EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    MONGO_DB_URI= ""
+    MONGO_DB_URI= "mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net"
     # RECOMMENDED
     BOT_USERNAME ="BrokenRobot_Bot"
-    DATABASE_URL ="mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
+    DATABASE_URL ="postgres://iarfggbc:Vxzh_kG7cxa1kHR5faxcd1kuA4R-UT9E@rosie.db.elephantsql.com/iarfggbc"
     CASH_API_KEY = "LO45IQSSY1TI8B1U"
     
     TIME_API_KEY = "3RV16TWH8JT9"
