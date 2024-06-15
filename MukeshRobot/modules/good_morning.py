@@ -36,7 +36,7 @@ async def awake(event):
     NEKO = f"❀ ᴡɪsʜɪɴɢ ʏᴏᴜ ᴀ ᴠᴇʀʏ ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ❀\n\n✦ ᴡᴇʟᴄᴏᴍᴇ ᴛʜɪs ʙᴇᴀᴜᴛɪғᴜʟ ᴍᴏʀɴɪɴɢ ᴡɪᴛʜ ᴀ sᴍɪʟᴇ ᴏɴ ʏᴏᴜʀ ғᴀᴄᴇ. I ʜᴏᴘᴇ ʏᴏᴜ ʟʟ ʜᴀᴠᴇ ᴀ ɢʀᴇᴀᴛ ᴅᴀʏ ᴛᴏᴅᴀʏ.\n\n✦ ᴡɪsʜɪɴɢ ᴛᴏ ➛ {event.sender.first_name}\n\n✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➛ [˹ •─╼⃝𖠁● 𝐁яσкєи ✘ 𝐑σвσт ●𖠁⃝╾─• ˼](https://t.me/BrokenRobot_Bot)"
     BUTTON = [
         [
-            Button.url("ᴍᴇᴇᴛ ᴍᴇ ʜᴇʀᴇ ʙᴀʙʏ", "https://telegram.dog/MASTIWITHFRIENDSXD"),
+            Button.url("🌸ᴛᴀᴘ ᴛᴏ sᴇᴇ ᴍᴀɢɪᴄ❤️", "https://t.me/BrokenRobot_Bot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users"),
         ]
     ]
     await telethn.send_file(event.chat_id, PHOTO, caption=NEKO, buttons=BUTTON)
